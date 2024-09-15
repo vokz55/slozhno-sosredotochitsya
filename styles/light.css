@@ -1,8 +1,8 @@
 .page.theme_light {
   --main-color: #353430;
-  --title-bg-color: #FF8DCB;
-  --bg-color: #FFF1F7;
-  --cover-description-color: #FFC2E6;
+  --title-bg-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --cover-description-color: #ffc2e6;
   --content-title-color: #353430;
   --accent-color: #353430;
   --accent-color-transparent: rgb(53 52 48 / 0.4);
@@ -17,9 +17,9 @@
 
 :root.theme-light {
   --main-color: #353430;
-  --title-bg-color: #FF8DCB;
-  --bg-color: #FFF1F7;
-  --cover-description-color: #FFC2E6;
+  --title-bg-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --cover-description-color: #ffc2e6;
   --content-title-color: #353430;
   --accent-color: #353430;
   --accent-color-transparent: rgb(53 52 48 / 0.4);
@@ -28,9 +28,9 @@
 @media (prefers-color-scheme: light) {
   :root {
     --main-color: #353430;
-    --title-bg-color: #FF8DCB;
-    --bg-color: #FFF1F7;
-    --cover-description-color: #FFC2E6;
+    --title-bg-color: #ff8dcb;
+    --bg-color: #fff1f7;
+    --cover-description-color: #ffc2e6;
     --content-title-color: #353430;
     --accent-color: #353430;
     --accent-color-transparent: rgb(53 52 48 / 0.4);
