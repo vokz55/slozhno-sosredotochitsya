@@ -1,16 +1,9 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
 :root {
   --main-color: #F1B2CE;
-  --accent-color: #FF0070;
+  --title-bg-color: #FF0070;
   --bg-color: #000028;
-  --main-title-color: #000028;
-  --logo-color: #DB00FF;
-  --bg-image: url("../images/cover-image-dark.png");
-  --logo-shadow-color: #FF0070;
-  --decor-color: #FF0070;
-  --display-rec: block; 
+  --cover-description-color: #DB00FF;
+  --content-title-color: #000028;
+  --accent-color: #FF0070;
+  --accent-color-transparent: rgb(255 0 112 / 0.4);
 }
