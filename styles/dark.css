@@ -10,3 +10,10 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+/* :root.theme-dark {
+  --main-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --bg-color: #000028;
+  --logo-color: #DB00FF;
+} */
