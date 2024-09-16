@@ -1,11 +1,6 @@
 .page {
   block-size: 100vh;
-  background-color: var(--bg-color);
-  background-image: url("../images/cover-image-dark.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background: var(--bg-color) url("../images/cover-image-dark.png") no-repeat fixed center / cover;
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: normal;
 }
@@ -20,6 +15,7 @@
   margin-block-end: 40px;
   block-size: 100vh;
   grid-template-rows: repeat(3, 1fr);
+  min-block-size: 668px;
 }
 
 /* Декоративные элементы */
@@ -97,6 +93,8 @@
   text-transform: lowercase;
   font-size: 18px;
   font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 /* Состояния для кнопок */
@@ -137,7 +135,6 @@
   margin-block-end: 10px;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
-  max-block-size: 117px;
   max-inline-size: 364px;
   color: var(--content-title-color);
   background-color: var(--title-bg-color);
@@ -201,6 +198,8 @@
 .section__content__text a {
   text-shadow: 2px 1px 0 var(--title-bg-color);
   text-decoration: none;
+  transition: border 0.3s ease;
+  border: 1px solid transparent;
 }
 
 .section__content__text a:hover {
@@ -236,6 +235,7 @@
   align-items: center;
   margin-block-start: 40px;
   block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .footer .cover__description {

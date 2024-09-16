@@ -13,18 +13,6 @@
   display: none;
 }
 
-/* С этим ничего не меняется
-
-:root.theme-light {
-  --main-color: #353430;
-  --title-bg-color: #ff8dcb;
-  --bg-color: #fff1f7;
-  --cover-description-color: #ffc2e6;
-  --content-title-color: #353430;
-  --accent-color: #353430;
-  --accent-color-transparent: rgb(53 52 48 / 0.4);
-} */
-
 @media (prefers-color-scheme: light) {
   :root {
     --main-color: #353430;

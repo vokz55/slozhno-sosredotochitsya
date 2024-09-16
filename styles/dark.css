@@ -12,13 +12,3 @@
 .page.theme_dark .decorated-zone-dark {
   display: block;
 }
-
-:root.theme-dark {
-  --main-color: #f1b2ce;
-  --title-bg-color: #ff0070;
-  --bg-color: #000028;
-  --cover-description-color: #db00ff;
-  --content-title-color: #000028;
-  --accent-color: #ff0070;
-  --accent-color-transparent: rgb(255 0 112 / 0.4);
-}
